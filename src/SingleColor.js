@@ -5,7 +5,7 @@ import { MdOutlineContentCopy } from "react-icons/md";
 const SingleColor = ({ rgb, hex, weight, index, colorListLength }) => {
 	const [copied, setCopied] = useState(false);
 	const validRgb = rgb.join(",");
-	// const hexCode = `#${hex}`;
+	const hexCode = `#${hex}`;
 
 	useEffect(() => {
 		const thistime = setTimeout(() => {
